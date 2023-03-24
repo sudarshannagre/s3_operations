@@ -1,0 +1,11 @@
+Spring boot with AWS S3 Operation using credentials
+
+Note : To run this example please replace your actual AWS Credentials like AccessKey, SecretAccessKey and region in the AwsS3Config file.
+
+URI's : 
+
+POST: http://localhost:8080/buckets/bucket-name - to create a bucket.
+
+DELETE: http://localhost:8080/buckets/bucket-name - to delete a bucket.
+
+GET: http://localhost:8080/buckets/ - to list all buckets.
